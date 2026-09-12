@@ -20,35 +20,39 @@
       <span>Життєдайна</span>
     </a>
     <nav class="nav">
-      <a href="#about">Про нас</a>
-      <a href="#directions">Напрями</a>
-      <a href="#help">Отримати допомогу</a>
-      <a href="#transparency">Звітність</a>
-      <a href="#contacts">Контакти</a>
+      <a href="#about" data-i18n="nav.about">Про нас</a>
+      <a href="#directions" data-i18n="nav.directions">Напрями</a>
+      <a href="#help" data-i18n="nav.help">Отримати допомогу</a>
+      <a href="#transparency" data-i18n="nav.transparency">Звітність</a>
+      <a href="#contacts" data-i18n="nav.contacts">Контакти</a>
     </nav>
-    <a class="btn btn--primary" href="#help">Як отримати допомогу</a>
+    <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:lang.label">
+      <button class="lang__btn" type="button" data-lang="uk" aria-pressed="true">UA</button>
+      <button class="lang__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn--primary" href="#help" data-i18n="nav.cta">Як отримати допомогу</a>
   </div>
 </header>
 
 <section class="hero" id="top">
   <div class="wrap hero__inner">
     <div class="hero__copy">
-      <p class="eyebrow">Громадська організація · Львівщина</p>
-      <h1>Сила жінки — у праві на безпеку, гідність і власний вибір</h1>
-      <p>Ми захищаємо права, підтримуємо, навчаємо та посилюємо жінок, дітей і молодь — щоб вони могли долати наслідки насильства й війни та ставати активними творчинями змін.</p>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Громадська організація · Львівщина</p>
+      <h1 data-i18n="hero.title">Сила жінки — у праві на безпеку, гідність і власний вибір</h1>
+      <p data-i18n="hero.text">Ми захищаємо права, підтримуємо, навчаємо та посилюємо жінок, дітей і молодь — щоб вони могли долати наслідки насильства й війни та ставати активними творчинями змін.</p>
       <div class="hero__actions">
-        <a class="btn btn--dark" href="#help">Як отримати допомогу</a>
-        <a class="btn btn--ghost" href="#directions">Напрями роботи</a>
+        <a class="btn btn--dark" href="#help" data-i18n="hero.btnHelp">Як отримати допомогу</a>
+        <a class="btn btn--ghost" href="#directions" data-i18n="hero.btnDirections">Напрями роботи</a>
       </div>
     </div>
     <aside class="hero__aside">
       <div class="card-call">
-        <p class="eyebrow">Безоплатна консультація</p>
-        <h2>Ви маєте право на безпеку</h2>
+        <p class="eyebrow" data-i18n="hero.cardEyebrow">Безоплатна консультація</p>
+        <h2 data-i18n="hero.cardTitle">Ви маєте право на безпеку</h2>
         <a class="mono phone" href="tel:+380670000000">+380 67 000 00 00</a>
-        <small>Юристка та психологиня. Конфіденційно, без осуду, безоплатно. Пн–Пт, 09:00–18:00.</small>
+        <small data-i18n="hero.cardNote">Юристка та психологиня. Конфіденційно, без осуду, безоплатно. Пн–Пт, 09:00–18:00.</small>
       </div>
-      <p class="hero__note">У небезпеці прямо зараз — 102 (поліція) або 15-47 (урядова гаряча лінія).</p>
+      <p class="hero__note" data-i18n="hero.emergency">У небезпеці прямо зараз — 102 (поліція) або 15-47 (урядова гаряча лінія).</p>
     </aside>
   </div>
 </section>
@@ -56,19 +60,19 @@
 <section class="section reveal" id="about">
   <div class="wrap split">
     <div class="split__main">
-      <p class="eyebrow">Про організацію</p>
-      <h2 class="title">Жіноча організація, яка діє поруч</h2>
-      <p class="lead">«Життєдайна» працює на перетині прав людини, гендерної рівності, захисту від насильства, правової та психологічної підтримки, жіночого лідерства й розвитку громад.</p>
-      <p class="lead">Ми не лише реагуємо на проблеми, а допомагаємо відновлювати впевненість, знати свої права та приймати власні рішення.</p>
+      <p class="eyebrow" data-i18n="about.eyebrow">Про організацію</p>
+      <h2 class="title" data-i18n="about.title">Жіноча організація, яка діє поруч</h2>
+      <p class="lead" data-i18n="about.p1">«Життєдайна» працює на перетині прав людини, гендерної рівності, захисту від насильства, правової та психологічної підтримки, жіночого лідерства й розвитку громад.</p>
+      <p class="lead" data-i18n="about.p2">Ми не лише реагуємо на проблеми, а допомагаємо відновлювати впевненість, знати свої права та приймати власні рішення.</p>
       <div class="stats">
-        <div class="stat"><b>3</b><span>області присутності, включно з прифронтовими громадами</span></div>
-        <div class="stat"><b>8</b><span>напрямів роботи — від правової допомоги до лідерства</span></div>
-        <div class="stat"><b>9</b><span>цінностей, за якими ми звітуємо перед людьми</span></div>
+        <div class="stat"><b>3</b><span data-i18n="about.stat1">області присутності, включно з прифронтовими громадами</span></div>
+        <div class="stat"><b>8</b><span data-i18n="about.stat2">напрямів роботи — від правової допомоги до лідерства</span></div>
+        <div class="stat"><b>9</b><span data-i18n="about.stat3">цінностей, за якими ми звітуємо перед людьми</span></div>
       </div>
     </div>
     <figure class="split__aside figure" style="margin:0">
-      <img src="assets/logo.jpg" alt="Знак ГО «Життєдайна»">
-      <figcaption>Львівська · Миколаївська · Херсонська області</figcaption>
+      <img src="assets/logo.jpg" alt="Знак ГО «Життєдайна»" data-i18n-attr="alt:about.logoAlt">
+      <figcaption data-i18n="about.caption">Львівська · Миколаївська · Херсонська області</figcaption>
     </figure>
   </div>
 </section>
@@ -76,41 +80,41 @@
 <section class="section band-mist reveal" id="directions">
   <div class="wrap">
     <div class="section__head">
-      <h2 class="title">Напрями роботи</h2>
-      <p>Натисніть напрям, щоб розгорнути перелік послуг.</p>
+      <h2 class="title" data-i18n="dir.title">Напрями роботи</h2>
+      <p data-i18n="dir.hint">Натисніть напрям, щоб розгорнути перелік послуг.</p>
     </div>
     <div class="grid">
       <details class="dir">
-        <summary><span>Захист прав жінок і дівчат</span></summary>
-        <p>Правові консультації, представництво інтересів, супровід у взаємодії з поліцією, соціальними службами та судом.</p>
+        <summary><span data-i18n="dir.1.title">Захист прав жінок і дівчат</span></summary>
+        <p data-i18n="dir.1.text">Правові консультації, представництво інтересів, супровід у взаємодії з поліцією, соціальними службами та судом.</p>
       </details>
       <details class="dir">
-        <summary><span>Протидія насильству</span></summary>
-        <p>Допомога постраждалим від домашнього та гендерно зумовленого насильства: кризове реагування, безпечне планування, супровід.</p>
+        <summary><span data-i18n="dir.2.title">Протидія насильству</span></summary>
+        <p data-i18n="dir.2.text">Допомога постраждалим від домашнього та гендерно зумовленого насильства: кризове реагування, безпечне планування, супровід.</p>
       </details>
       <details class="dir">
-        <summary><span>Психологічна підтримка</span></summary>
-        <p>Індивідуальні консультації, групи підтримки, робота з травмою та вигоранням.</p>
+        <summary><span data-i18n="dir.3.title">Психологічна підтримка</span></summary>
+        <p data-i18n="dir.3.text">Індивідуальні консультації, групи підтримки, робота з травмою та вигоранням.</p>
       </details>
       <details class="dir">
-        <summary><span>Жіноче лідерство</span></summary>
-        <p>Навчальні програми, менторство та підтримка жіночих ініціатив у громадах.</p>
+        <summary><span data-i18n="dir.4.title">Жіноче лідерство</span></summary>
+        <p data-i18n="dir.4.text">Навчальні програми, менторство та підтримка жіночих ініціатив у громадах.</p>
       </details>
       <details class="dir">
-        <summary><span>Підтримка постраждалих від війни</span></summary>
-        <p>Робота з ВПО, родинами військових і мешканками прифронтових громад: гуманітарна, правова та психосоціальна допомога.</p>
+        <summary><span data-i18n="dir.5.title">Підтримка постраждалих від війни</span></summary>
+        <p data-i18n="dir.5.text">Робота з ВПО, родинами військових і мешканками прифронтових громад: гуманітарна, правова та психосоціальна допомога.</p>
       </details>
       <details class="dir">
-        <summary><span>Робота з молоддю та дітьми</span></summary>
-        <p>Профілактика насильства, безпечні простори, освітні заняття про права й межі.</p>
+        <summary><span data-i18n="dir.6.title">Робота з молоддю та дітьми</span></summary>
+        <p data-i18n="dir.6.text">Профілактика насильства, безпечні простори, освітні заняття про права й межі.</p>
       </details>
       <details class="dir">
-        <summary><span>Розвиток громад</span></summary>
-        <p>Співпраця з місцевою владою та організаціями, посилення спроможності громад реагувати на насильство.</p>
+        <summary><span data-i18n="dir.7.title">Розвиток громад</span></summary>
+        <p data-i18n="dir.7.text">Співпраця з місцевою владою та організаціями, посилення спроможності громад реагувати на насильство.</p>
       </details>
       <details class="dir">
-        <summary><span>Освіта та просвіта</span></summary>
-        <p>Тренінги, інформаційні кампанії, публічні події про права людини та гендерну рівність.</p>
+        <summary><span data-i18n="dir.8.title">Освіта та просвіта</span></summary>
+        <p data-i18n="dir.8.text">Тренінги, інформаційні кампанії, публічні події про права людини та гендерну рівність.</p>
       </details>
     </div>
   </div>
@@ -119,17 +123,17 @@
 <section class="band-coral reveal">
   <div class="wrap band-coral__inner">
     <div class="band-coral__col">
-      <p class="eyebrow">Наша місія</p>
-      <p class="mission">Створювати умови, у яких кожна жінка має право на безпеку, гідність, свободу вибору та можливість змінювати власне життя і свою громаду.</p>
+      <p class="eyebrow" data-i18n="mission.eyebrow">Наша місія</p>
+      <p class="mission" data-i18n="mission.text">Створювати умови, у яких кожна жінка має право на безпеку, гідність, свободу вибору та можливість змінювати власне життя і свою громаду.</p>
     </div>
     <div class="band-coral__col">
-      <p class="eyebrow">Ми прагнемо громад, у яких</p>
+      <p class="eyebrow" data-i18n="vision.eyebrow">Ми прагнемо громад, у яких</p>
       <ul class="vision">
-        <li>немає толерантності до насильства</li>
-        <li>права людини є реальною цінністю</li>
-        <li>жінки мають голос і вплив на рішення</li>
-        <li>допомогу можна отримати в кризі</li>
-        <li>різноманітність сприймається як ресурс</li>
+        <li><span data-i18n="vision.1">немає толерантності до насильства</span></li>
+        <li><span data-i18n="vision.2">права людини є реальною цінністю</span></li>
+        <li><span data-i18n="vision.3">жінки мають голос і вплив на рішення</span></li>
+        <li><span data-i18n="vision.4">допомогу можна отримати в кризі</span></li>
+        <li><span data-i18n="vision.5">різноманітність сприймається як ресурс</span></li>
       </ul>
     </div>
   </div>
@@ -137,30 +141,30 @@
 
 <section class="section reveal" id="help">
   <div class="wrap">
-    <p class="eyebrow">Крок за кроком</p>
-    <h2 class="title" style="margin-top:14px">Як отримати допомогу</h2>
+    <p class="eyebrow" data-i18n="help.eyebrow">Крок за кроком</p>
+    <h2 class="title" style="margin-top:14px" data-i18n="help.title">Як отримати допомогу</h2>
     <div class="steps">
-      <article class="step"><p class="num mono">01</p><h3>Зателефонуйте або напишіть</h3><p>Звернення конфіденційне. Ми не передаємо ваші дані третім особам без вашої згоди.</p></article>
-      <article class="step"><p class="num mono">02</p><h3>Розкажіть про ситуацію</h3><p>Координаторка вислухає й підбере потрібну підтримку — правову, психологічну, соціальну.</p></article>
-      <article class="step"><p class="num mono">03</p><h3>Отримайте супровід</h3><p>Ви самі вирішуєте темп і кроки. Ми супроводжуємо стільки, скільки потрібно.</p></article>
+      <article class="step"><p class="num mono">01</p><h3 data-i18n="help.1.title">Зателефонуйте або напишіть</h3><p data-i18n="help.1.text">Звернення конфіденційне. Ми не передаємо ваші дані третім особам без вашої згоди.</p></article>
+      <article class="step"><p class="num mono">02</p><h3 data-i18n="help.2.title">Розкажіть про ситуацію</h3><p data-i18n="help.2.text">Координаторка вислухає й підбере потрібну підтримку — правову, психологічну, соціальну.</p></article>
+      <article class="step"><p class="num mono">03</p><h3 data-i18n="help.3.title">Отримайте супровід</h3><p data-i18n="help.3.text">Ви самі вирішуєте темп і кроки. Ми супроводжуємо стільки, скільки потрібно.</p></article>
     </div>
-    <p class="note">Ми ніколи не публікуємо історій і фото без письмової згоди людини.</p>
+    <p class="note" data-i18n="help.note">Ми ніколи не публікуємо історій і фото без письмової згоди людини.</p>
   </div>
 </section>
 
 <section class="section band-white reveal">
   <div class="wrap">
-    <h2 class="title">Наші цінності</h2>
+    <h2 class="title" data-i18n="values.title">Наші цінності</h2>
     <ul class="chips">
-      <li>Гідність</li>
-      <li>Рівність</li>
-      <li>Безпека</li>
-      <li>Справедливість</li>
-      <li>Підтримка</li>
-      <li>Жіноче лідерство</li>
-      <li>Партнерство</li>
-      <li>Професійність</li>
-      <li>Відповідальність</li>
+      <li data-i18n="values.1">Гідність</li>
+      <li data-i18n="values.2">Рівність</li>
+      <li data-i18n="values.3">Безпека</li>
+      <li data-i18n="values.4">Справедливість</li>
+      <li data-i18n="values.5">Підтримка</li>
+      <li data-i18n="values.6">Жіноче лідерство</li>
+      <li data-i18n="values.7">Партнерство</li>
+      <li data-i18n="values.8">Професійність</li>
+      <li data-i18n="values.9">Відповідальність</li>
     </ul>
   </div>
 </section>
@@ -168,42 +172,42 @@
 <section class="section reveal" id="transparency">
   <div class="wrap split">
     <div class="split__main">
-      <p class="eyebrow">Прозорість</p>
-      <h2 class="title">Звітність і партнерство</h2>
-      <p class="lead">Ми щороку публікуємо фінансовий та програмний звіт: скільком людям надано допомогу, які проєкти реалізовано, як використано кошти донорів.</p>
-      <p class="lead">Донори, громади та організації можуть звертатися до нас напряму — контакти нижче.</p>
+      <p class="eyebrow" data-i18n="transp.eyebrow">Прозорість</p>
+      <h2 class="title" data-i18n="transp.title">Звітність і партнерство</h2>
+      <p class="lead" data-i18n="transp.p1">Ми щороку публікуємо фінансовий та програмний звіт: скільком людям надано допомогу, які проєкти реалізовано, як використано кошти донорів.</p>
+      <p class="lead" data-i18n="transp.p2">Донори, громади та організації можуть звертатися до нас напряму — контакти нижче.</p>
     </div>
     <div class="docs">
-      <div><span style="font-size:16px;color:var(--ink)">Річний звіт 2025</span><span class="mono">PDF · очікується</span></div>
-      <div><span style="font-size:16px;color:var(--ink)">Політика захисту даних</span><span class="mono">PDF · очікується</span></div>
-      <div><span style="font-size:16px;color:var(--ink)">Статут організації</span><span class="mono">PDF · очікується</span></div>
+      <div><span style="font-size:16px;color:var(--ink)" data-i18n="transp.doc1">Річний звіт 2025</span><span class="mono" data-i18n="transp.status">PDF · очікується</span></div>
+      <div><span style="font-size:16px;color:var(--ink)" data-i18n="transp.doc2">Політика захисту даних</span><span class="mono" data-i18n="transp.status">PDF · очікується</span></div>
+      <div><span style="font-size:16px;color:var(--ink)" data-i18n="transp.doc3">Статут організації</span><span class="mono" data-i18n="transp.status">PDF · очікується</span></div>
     </div>
   </div>
 </section>
 
 <section class="section band-mist reveal" id="contacts">
   <div class="wrap">
-    <h2 class="title">Контакти</h2>
+    <h2 class="title" data-i18n="contacts.title">Контакти</h2>
     <div class="contacts">
       <div class="contact">
-        <p class="eyebrow">Телефон</p>
+        <p class="eyebrow" data-i18n="contacts.phone">Телефон</p>
         <strong><a class="mono" href="tel:+380670000000">+380 67 000 00 00</a></strong>
-        <p>Пн–Пт, 09:00–18:00</p>
+        <p data-i18n="contacts.hours">Пн–Пт, 09:00–18:00</p>
       </div>
       <div class="contact">
-        <p class="eyebrow">Email</p>
+        <p class="eyebrow" data-i18n="contacts.email">Email</p>
         <strong><a class="mono" href="mailto:info@zhyttiedaina.org.ua">info@zhyttiedaina.org.ua</a></strong>
-        <p>Для запитів про допомогу, партнерство та звітність</p>
+        <p data-i18n="contacts.emailNote">Для запитів про допомогу, партнерство та звітність</p>
       </div>
       <div class="contact">
-        <p class="eyebrow">Адреса</p>
-        <strong>Львів</strong>
-        <p>Прийом за попередньою домовленістю по телефону</p>
+        <p class="eyebrow" data-i18n="contacts.address">Адреса</p>
+        <strong data-i18n="contacts.city">Львів</strong>
+        <p data-i18n="contacts.addressNote">Прийом за попередньою домовленістю по телефону</p>
       </div>
       <div class="contact">
-        <p class="eyebrow">Регіони роботи</p>
-        <strong>3 області</strong>
-        <p>Львівська, Миколаївська, Херсонська — включно з прифронтовими громадами</p>
+        <p class="eyebrow" data-i18n="contacts.regions">Регіони роботи</p>
+        <strong data-i18n="contacts.regionsValue">3 області</strong>
+        <p data-i18n="contacts.regionsNote">Львівська, Миколаївська, Херсонська — включно з прифронтовими громадами</p>
       </div>
     </div>
   </div>
@@ -216,27 +220,30 @@
         <img src="assets/logo.jpg" alt="ГО «Життєдайна»">
         <span>Життєдайна</span>
       </div>
-      <p>Жіноча громадська організація: права, безпека, підтримка та лідерство.</p>
+      <p data-i18n="footer.tagline">Жіноча громадська організація: права, безпека, підтримка та лідерство.</p>
     </div>
     <div class="footer__col">
-      <p class="eyebrow">Розділи</p>
-      <a href="#about">Про нас</a>
-      <a href="#directions">Напрями</a>
-      <a href="#help">Отримати допомогу</a>
-      <a href="#transparency">Звітність</a>
+      <p class="eyebrow" data-i18n="footer.sections">Розділи</p>
+      <a href="#about" data-i18n="nav.about">Про нас</a>
+      <a href="#directions" data-i18n="nav.directions">Напрями</a>
+      <a href="#help" data-i18n="nav.help">Отримати допомогу</a>
+      <a href="#transparency" data-i18n="nav.transparency">Звітність</a>
     </div>
     <div class="footer__col">
-      <p class="eyebrow">Контакти</p>
+      <p class="eyebrow" data-i18n="footer.contacts">Контакти</p>
       <a class="mono" href="tel:+380670000000">+380 67 000 00 00</a>
       <a class="mono" href="mailto:info@zhyttiedaina.org.ua">info@zhyttiedaina.org.ua</a>
       <p class="mono">zhyttiedaina.org.ua</p>
     </div>
   </div>
   <div class="wrap footer__bottom">
-    <p>© 2026 ГО «Життєдайна». Усі права захищено.</p>
-    <p>Макет побудовано за брендбуком організації</p>
+    <p data-i18n="footer.rights">© 2026 ГО «Життєдайна». Усі права захищено.</p>
+    <p data-i18n="footer.note">Макет побудовано за брендбуком організації</p>
   </div>
 </footer>
 
+<script src="i18n/uk.js"></script>
+<script src="i18n/en.js"></script>
+<script src="i18n.js"></script>
 </body>
 </html>

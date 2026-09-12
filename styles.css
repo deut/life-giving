@@ -58,6 +58,15 @@ p{margin:0;text-wrap:pretty}
 .nav{display:flex;gap:22px;flex:1 1 260px;flex-wrap:wrap;font-size:15px;font-weight:500}
 .nav a{color:var(--ink)}
 .header .btn{min-height:44px;padding:11px 20px;font-size:15px;flex:none}
+.lang{display:flex;gap:4px;padding:3px;border:1px solid var(--line);border-radius:999px;background:var(--white);flex:none}
+.lang__btn{
+  min-height:38px;padding:0 14px;border:none;border-radius:999px;background:transparent;
+  font-family:"Manrope",sans-serif;font-size:14px;font-weight:600;letter-spacing:.04em;
+  color:var(--ink-soft);cursor:pointer;transition:background .2s ease,color .2s ease;
+}
+.lang__btn:hover{color:var(--coral-deep)}
+.lang__btn[aria-pressed="true"]{background:var(--mist);color:var(--coral-deep)}
+.lang__btn:focus-visible{outline:2px solid var(--coral);outline-offset:2px}
 
 /* hero */
 .hero{background:linear-gradient(125deg,#EF7264 0%,#E68A7C 40%,#EFD2D4 74%,#F7EAE6 100%);padding:clamp(48px,7vw,96px) 0}
@@ -108,21 +117,17 @@ h2.title{font-size:clamp(28px,3.4vw,44px)}
 }
 .dir[open] summary::after{content:"−";transform:rotate(180deg)}
 .dir summary:hover{color:var(--coral-deep)}
-.dir p{margin-top:10px;font-size:15px;line-height:1.6;color:var(--ink-soft);animation:fade-up .35s ease both}
+.dir p{margin-top:10px;font-size:15px;line-height:1.6;color:var(--ink-soft);animation:rise .35s ease}
 
 /* м'яка поява секцій при прокручуванні (CSS scroll-driven, з безпечним фолбеком) */
-@keyframes fade-up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-@supports (animation-timeline:view()){
-  @media (prefers-reduced-motion:no-preference){
-    .reveal > .wrap{
-      animation:fade-up linear both;
-      animation-timeline:view();
-      animation-range:entry 5% cover 26%;
-    }
-  }
+@keyframes rise{from{transform:translateY(12px)}to{transform:none}}
+@keyframes fade-up{from{opacity:.001;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:no-preference){
+  .reveal > .wrap{animation:rise .7s ease}
+  .reveal:nth-of-type(even) > .wrap{animation-delay:.08s}
 }
-.hero__copy{animation:fade-up .8s ease both}
-.hero__aside{animation:fade-up .8s ease .12s both}
+.hero__copy{animation:rise .8s ease}
+.hero__aside{animation:rise .8s ease .12s}
 .stat{transition:transform .25s ease,background .25s ease}
 .stat:hover{transform:translateY(-3px);background:#F1D7D1}
 .chips li{transition:transform .2s ease,border-color .2s ease,background .2s ease}
