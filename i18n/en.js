@@ -2,7 +2,6 @@ window.I18N = window.I18N || {};
 window.I18N.en = {
   "meta.title": "Zhyttiedaina NGO — women’s rights, safety and support",
   "meta.description": "Zhyttiedaina is a women’s civil society organisation in Ukraine: rights protection, prevention of violence, legal and psychological support, women’s leadership. Lviv, Mykolaiv and Kherson regions.",
-
   "nav.about": "About us",
   "nav.directions": "What we do",
   "nav.help": "Get help",
@@ -10,8 +9,7 @@ window.I18N.en = {
   "nav.contacts": "Contact",
   "nav.cta": "How to get help",
   "lang.label": "Site language",
-
-  "hero.eyebrow": "Civil society organisation · Lviv region",
+  "hero.eyebrow": "Civil society organisation · Our space is Ukraine",
   "hero.title": "A woman’s strength lies in her right to safety, dignity and her own choice",
   "hero.text": "We protect rights, support, educate and empower women, children and young people — so they can overcome the consequences of violence and war and become active agents of change.",
   "hero.btnHelp": "How to get help",
@@ -20,7 +18,6 @@ window.I18N.en = {
   "hero.cardTitle": "You have the right to be safe",
   "hero.cardNote": "A lawyer and a psychologist. Confidential, non-judgemental, free of charge. Mon–Fri, 09:00–18:00.",
   "hero.emergency": "In immediate danger — call 102 (police) or 15-47 (government hotline).",
-
   "about.eyebrow": "About the organisation",
   "about.title": "A women’s organisation that works right beside you",
   "about.p1": "Zhyttiedaina works at the intersection of human rights, gender equality, protection from violence, legal and psychological support, women’s leadership and community development.",
@@ -30,7 +27,6 @@ window.I18N.en = {
   "about.stat3": "values we hold ourselves accountable to",
   "about.caption": "Lviv · Mykolaiv · Kherson regions",
   "about.logoAlt": "Zhyttiedaina NGO emblem",
-
   "dir.title": "What we do",
   "dir.hint": "Select an area to see the services it includes.",
   "dir.1.title": "Protecting the rights of women and girls",
@@ -49,7 +45,6 @@ window.I18N.en = {
   "dir.7.text": "Cooperation with local authorities and organisations to strengthen communities’ capacity to respond to violence.",
   "dir.8.title": "Education and awareness",
   "dir.8.text": "Trainings, information campaigns and public events on human rights and gender equality.",
-
   "mission.eyebrow": "Our mission",
   "mission.text": "To create conditions in which every woman has the right to safety, dignity and freedom of choice — and the power to change her own life and her community.",
   "vision.eyebrow": "We work towards communities where",
@@ -58,7 +53,6 @@ window.I18N.en = {
   "vision.3": "women have a voice and influence decisions",
   "vision.4": "help is available in a crisis",
   "vision.5": "diversity is seen as a resource",
-
   "help.eyebrow": "Step by step",
   "help.title": "How to get help",
   "help.1.title": "Call or write to us",
@@ -68,7 +62,6 @@ window.I18N.en = {
   "help.3.title": "Receive ongoing support",
   "help.3.text": "You set the pace and the steps. We stay with you as long as needed.",
   "help.note": "We never publish stories or photographs without a person’s written consent.",
-
   "values.title": "Our values",
   "values.1": "Dignity",
   "values.2": "Equality",
@@ -79,7 +72,6 @@ window.I18N.en = {
   "values.7": "Partnership",
   "values.8": "Professionalism",
   "values.9": "Accountability",
-
   "transp.eyebrow": "Transparency",
   "transp.title": "Reporting and partnership",
   "transp.p1": "Each year we publish a financial and programme report: how many people received help, which projects were delivered, and how donor funds were used.",
@@ -88,7 +80,6 @@ window.I18N.en = {
   "transp.doc2": "Data protection policy",
   "transp.doc3": "Organisation statute",
   "transp.status": "PDF · coming soon",
-
   "contacts.title": "Contact",
   "contacts.phone": "Phone",
   "contacts.hours": "Mon–Fri, 09:00–18:00",
@@ -100,10 +91,39 @@ window.I18N.en = {
   "contacts.regions": "Regions",
   "contacts.regionsValue": "3 regions",
   "contacts.regionsNote": "Lviv, Mykolaiv and Kherson regions — including frontline communities",
-
   "footer.tagline": "A women’s civil society organisation: rights, safety, support and leadership.",
   "footer.sections": "Sections",
   "footer.contacts": "Contact",
-  "footer.rights": "© 2026 Zhyttiedaina NGO. All rights reserved.",
-  "footer.note": "Built on the organisation’s brand guidelines"
+  "footer.rights": "© 2026 Zhyttiedaina NGO · Lviv region",
+  "footer.note": "Built on the organisation’s brand guidelines",
+  "nav.menu": "Menu",
+  "nav.values": "Values",
+  "logo.alt": "Zhyttiedaina — logo",
+  "about.boxTitle": "Areas of work",
+  "about.box.1": "Rights of women and children",
+  "about.box.2": "Preventing violence",
+  "about.box.3": "Psychological support",
+  "about.box.4": "Women’s leadership",
+  "about.box.5": "Legal aid",
+  "about.box.6": "Community work",
+  "values.eyebrow": "03 · Values",
+  "values.hint": "Nine principles shape our work: how we speak, what we promise and what we answer for.",
+  "values.1.text": "Every person has the right to respect, safety and a dignified life.",
+  "values.2.text": "Equal rights, opportunities and access to resources.",
+  "values.3.text": "A safe environment is the foundation of recovery.",
+  "values.4.text": "Protecting human rights and holding violations to account.",
+  "values.5.text": "We stand beside you and help you regain your strength.",
+  "values.6.text": "Women are leaders and experts of change.",
+  "values.7.text": "Lasting change is built on trust.",
+  "values.8.text": "Knowledge, experience and evidence-based approaches.",
+  "values.9.text": "To people, resources and results.",
+  "tone.yes": "Yes",
+  "tone.no": "No",
+  "tone.rule": "Rule",
+  "tone.yesText": "“You have the right to be safe. We are here and will help with the next step.”",
+  "contacts.social": "Social media",
+  "contacts.instagramNote": "Event announcements, support groups, useful materials",
+  "contacts.facebookNote": "Organisation news and project reports",
+  "footer.edrpou": "EDRPOU code 45638920",
+  "footer.slogan": "Zhyttiedaina — a woman’s strength lies in her right to choose."
 };
